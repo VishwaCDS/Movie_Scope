@@ -1,0 +1,48 @@
+
+
+.container-1 {
+    position: relative;
+    margin-bottom: 100px;
+    left: 45%;
+    width: 50%;
+}
+
+.container-1 h3 {
+    color: rgb(255, 255, 255);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+
+.container-1 p{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container-2 img {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    top: 200px;
+    left: 8%;
+}
+
+hr {
+    position: relative;
+    top: 26%;
+    left: 0%;
+    width: 20%;
+    margin-left: 0%;
+    border: 10px solid rgba(255, 255, 255, 0.719);
+}
+
+.container-1 h1{
+    font-weight:lighter;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container-1 h1:hover {
+    color: rgba(255, 255, 255, 0.479);
+    transition: .2s;
+}
