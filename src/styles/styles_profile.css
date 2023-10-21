@@ -1,0 +1,586 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"Monstserrat",sans-serif;
+}
+/*--------------Header----------------*/
+header{
+    margin: 5px;
+    width: 95%;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0, 0.7);
+    padding: 30px 30px;
+    position: absolute;
+    z-index: 1;
+}
+
+header .left-menu{
+    display: flex;
+}
+
+header .left-menu .links{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 0 50px;
+}
+
+header .left-menu .links a{
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+    margin-right: 20px;
+}
+
+header .left-menu .links a:hover{
+    color: #e1ad01;
+}
+
+header .left-menu .links a #ticket{
+    background-color:#e1ad01 ;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+header .left-menu .links a #ticket:hover{
+    background-color: #d9bf6c;
+}
+
+
+header .right-menu{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+header .right-menu a{
+    padding: 0 10 px;
+    text-decoration: none;
+    color: white;
+}
+
+header .right-menu a:hover{
+    color: #e1ad01;
+}
+
+header .right-menu .dash{
+    color: white;
+    padding: 0 10px;
+}
+
+header .right-menu .register a{
+    background-color:#e1ad01 ;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+header .right-menu .register a:hover{
+    background-color: #d9bf6c;
+}
+
+.logo a{
+    text-decoration: none;
+}
+.logo a h1{
+    color: white;
+}
+.logo a h1 span{
+    color: red;
+}
+
+/*-------------------Footer------------------*/
+footer{
+    margin-top: 1300px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+}
+footer .top-main{
+    display: flex;
+    padding: 50px 100px;
+    justify-content: space-between;
+}
+
+
+/* Style icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+.fa:hover {
+    opacity: 0.7;
+  }
+  
+  
+  /* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+/* twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+/* instagram */
+.fa-instagram{
+    background: #E1306C;
+    color: white;
+}
+
+
+footer .top-main .left-main ul{
+    list-style: none;
+    margin-top: 20px;
+}
+footer .top-main .left-main ul li{
+    margin-top: 10px;
+}
+footer .top-main .left-main ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+footer .top-main .left-main ul li a:hover{
+    color: #e1ad01;
+}
+
+footer .bottom-main{
+    display: flex;
+    background-color: #3a3a3a;    
+    padding: 20px 30px;
+    justify-content: space-between;
+    color: white;
+}
+
+footer .bottom-main .privacy a{
+    text-decoration: none;
+    color: white;
+}
+
+footer .bottom-main .privacy a:hover{
+    color: black;
+} 
+
+body {
+    background: url(../images/photo-1484176141566-3674cda218f0.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+#side-panel {
+    position: fixed;
+    top: 20%;
+    left: 2%;
+    font-size: 20px;
+    
+}
+
+#side-panel #color-profile {
+    text-decoration: none;
+    color: #ff0000;
+}
+
+#side-panel #color-notification, #color-booking-history, #color-bookmark {
+    text-decoration: none;
+    color: #ff9100;
+}
+
+#side-panel #color-profile:hover {
+    color: #ff9100;
+    transition: .2s;
+}
+
+#side-panel #color-notification:hover {
+    color: rgb(255, 0, 0);
+    transition: .2s;
+}
+
+#side-panel a:hover {
+    color: rgb(255, 0, 0);
+    transition: .2s;
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+#side-panel a{
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+
+#cover-img {
+    text-align: center;
+    right: 0%;
+    top: 0%;
+}
+
+#main-img {
+    position: absolute;
+    left: 10%;
+    top: 10.5%;
+    clip-path: circle();
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Zen+Loop&display=swap');
+#ep-text {
+    position: absolute;
+    left: 35%;
+    top: 18%;
+    color: white;
+    font-size: 40px;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-family: 'Zen Loop', cursive;
+}
+
+#C_un {
+    position: absolute;
+    left: 10%;
+    top: 25%;
+    color: white;
+    font-size: 20px;
+}
+
+#cusername {
+    position: absolute;
+    left: 10%;
+    top: 28%;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    outline: none;
+    height: 3%;
+    transition: .3s;
+}
+
+#cusername:hover {
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+/* -------------------------------------------------- */
+#N_un {
+    position: absolute;
+    left: 60%;
+    top: 25%;
+    color: white;
+    font-size: 20px;
+}
+
+#nusername {
+    position: absolute;
+    left: 60%;
+    top: 28%;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    outline: none;
+    height: 3%;
+    transition: .3s;
+}
+
+#nusername:hover {
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+/* ------------------------------------------------- */
+#fn-text {
+    position: absolute;
+    left: 10%;
+    top: 32%;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+#first-name {
+    position: absolute;
+    left: 10%;
+    top: 35%;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    outline: none;
+    height: 3%;
+    transition: .3s;
+}
+
+#first-name:focus {
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+#ln-text {
+    position: absolute;
+    left: 60%;
+    top: 32%;
+    color: white;
+    font-size: 20px;
+} 
+
+#last-name {
+    position: absolute;
+    left: 60%;
+    top: 35%;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    outline: none;
+    height: 3%;
+    transition: .3s;
+}
+
+input[type='text'] {
+    font-size: 20px;
+    width: 20%;
+    color: gray;
+    text-align: center;
+}
+
+input[type='email'] {
+    font-size: 20px;
+    width: 40%;
+    color: gray;
+    text-align: center;
+}
+
+#last-name:focus {
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+#en-text {
+    position: absolute;
+    left: 10%;
+    top: 39%;
+    font-size: 20px;
+    color: white;
+}
+
+#email {
+    position: absolute;
+    left: 10%;
+    top: 42%;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    outline: none;
+    height: 3%;
+    transition: .3s;
+}
+
+#email:focus {
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+#mn-text {
+    position: absolute;
+    left: 60%;
+    top: 39%;
+    font-size: 20px;
+    color: white;
+}
+
+#mobile-number {
+    position: absolute;
+    left: 60%;
+    top: 42%;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    outline: none;
+    height: 3%;
+    transition: .3s;
+}
+
+#mobile-number:focus {
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+input[type='password']{
+    font-size: 20px;
+    width: 40%;
+    color: gray;
+    text-align: center;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    outline: none;
+    height: 3%;
+    transition: .3s;
+}
+
+input[type='password']:focus {
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Zen+Loop&display=swap');
+#cp-1 {
+    position: absolute;
+    left: 26%;
+    top: 48%;
+    color: white;
+    font-size: 40px;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-family: 'Zen Loop', cursive;
+}
+
+#cp {
+    position: absolute;
+    left: 10%;
+    top: 55%;
+    color: white;
+    font-size: 20px;
+}
+
+#c-password {
+    position: absolute;
+    left: 56%;
+    top: 54.5%;
+}
+
+#np {
+    position: absolute;
+    left: 10%;
+    top: 60.5%;
+    color: white;
+    font-size: 20px;
+}
+
+#new-password {
+    position:absolute;
+    left: 56%;
+    top: 60%;
+}
+
+#cnp {
+    position: absolute;
+    left: 10%;
+    top: 66.5%;
+    color: white;
+    font-size: 20px;
+}
+
+#cnp-1 {
+    position:absolute;
+    left: 56%;
+    top: 65.5%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Zen+Loop&display=swap');
+#gender-text {
+    position: absolute;
+    left: 40%;
+    top: 72.5%;
+    color: white;
+    font-size: 40px;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-family: 'Zen Loop', cursive;
+}
+
+#gender-1 {
+    position:absolute;
+    left: 26%;
+    top: 78.5%;
+}
+
+#radio-male {
+    position: absolute;
+    left: 30%;
+    top: 78.5%;
+    color: white;
+    font-size: 20px;
+}
+
+#gender-2 {
+    position:absolute;
+    left: 54%;
+    top: 78.5%;   
+}
+
+#radio-female {
+    position: absolute;
+    left: 58%;
+    top: 78.5%;
+    color: white;
+    font-size: 20px;
+}
+
+#married-text {
+    position: absolute;
+    left: 40%;
+    top: 78%;
+    color: white;
+    font-size: 40px;
+}
+
+#married-1 {
+    position:absolute;
+    left: 26%;
+    top: 83%;   
+}
+
+#married-2 {
+    position: absolute;
+    left: 30%;
+    top: 82.7%;
+    color: white;
+    font-size: 20px;
+}
+
+#married-3 {
+    position:absolute;
+    left: 54%;
+    top: 83%;  
+}
+
+#married-4 {
+    position: absolute;
+    left: 58%;
+    top: 82.7%;
+    color: white;
+    font-size: 20px;
+}
+
+#btn-1 {
+    position: absolute;
+    left: 40%;
+    top: 70%;   
+    border-radius: 4px;
+    background-color: #e1ad01;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#btn-1:hover {
+    background-color: #e1ad01;
+    color: purple;
+    border-color: dodgerblue;
+    box-shadow: 0 0 15px 0 #e1ad01;
+}
+
+
+#profile{
+    position: absolute;
+    width: 800px;
+    height: 1000px;
+    background: hsl(0, 0%, 0%, 0.5); /* try transparent background */
+    top: 20%;
+    left: 26%;
+    box-sizing:border-box;
+    box-shadow: 0 0 25px 0 #ff7300;
+}
+
