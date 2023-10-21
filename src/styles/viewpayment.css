@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"Monstserrat",sans-serif;
+}
+
+body {
+  background-image: url(../image/BG1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:"Monstserrat",sans-serif;
+    overflow-x: hidden;
+}
+
+/*--------------Header----------------*/
+header{
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0, 0.7);
+    padding: 30px 30px;
+    position: absolute;
+    z-index: 1;
+}
+
+header .left-menu{
+    display: flex;
+}
+
+header .left-menu .links{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 0 50px;
+}
+
+header .left-menu .links a{
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+    margin-right: 20px;
+}
+
+header .left-menu .links a:hover{
+    color: #e1ad01;
+}
+
+header .left-menu .links a #ticket{
+    background-color:#e1ad01 ;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+header .left-menu .links a #ticket:hover{
+    background-color: #d9bf6c;
+}
+
+
+header .right-menu{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+header .right-menu a{
+    padding: 0 10 px;
+    text-decoration: none;
+    color: white;
+}
+
+header .right-menu a:hover{
+    color: #e1ad01;
+}
+
+header .right-menu .dash{
+    color: white;
+    padding: 0 10px;
+}
+
+header .right-menu .register a{
+    background-color:#e1ad01 ;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+header .right-menu .register a:hover{
+    background-color: #d9bf6c;
+}
+
+/*---------logo-----------*/
+.logo a{
+    text-decoration: none;
+}
+.logo a h1{
+   color: white;
+}
+.logo a h1 span{
+    color: red;
+}
+
+/*heading one*/
+.headOne{
+  color:white;
+  background-color:#333333;
+  margin-left:300px;
+  margin-top:200px;
+  padding-left:10px;
+  padding-right:10px;
+  position:relative;
+  width:168px;
+  
+}
+
+.card h2{
+  margin-top:200px;
+  font-family: 'Times New Roman';
+}
+
+
+h2
+{ margin-top:200px;
+  font-family: 'Times New Roman';
+}
+
+
+
+/*-------------------Footer------------------*/
+footer{
+    position: auto;
+    bottom: auto;
+    left: 0;
+    width: 100%;
+    background-color: black;
+}
+footer.main{
+    align-bottom:0px;
+}
+footer .top-main{
+    display: flex;
+    padding: 50px 100px;
+    justify-content: space-between;
+}
+
+
+/* Style icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+.fa:hover {
+    opacity: 0.7;
+  }
+  
+  
+  /* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+/* twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+/* instagram */
+.fa-instagram{
+    background: #E1306C;
+    color: white;
+}
+
+
+footer .top-main .left-main ul{
+    list-style: none;
+    margin-top: 20px;
+}
+footer .top-main .left-main ul li{
+    margin-top: 10px;
+}
+footer .top-main .left-main ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+footer .top-main .left-main ul li a:hover{
+    color: #e1ad01;
+}
+
+footer .bottom-main{
+    display: flex;
+    background-color: #3a3a3a;    
+    padding: 20px 30px;
+    justify-content: space-between;
+    color: white;
+}
+
+footer .bottom-main .privacy a{
+    text-decoration: none;
+    color: white;
+}
+
+footer .bottom-main .privacy a:hover{
+    color: black;
+}
